@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.bu.projectportal.ProjectsListFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/projectlist_recyclerview"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/button_favorite_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Favotite List"
+        />
+
+    <!--   <ListView
+        android:id="@+id/projectsList_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/Projects_list"/>-->
+</FrameLayout>
